@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Moviev-Reactjs/static/css/main.e2228041.css",
-    "main.js": "/Moviev-Reactjs/static/js/main.87fc3e40.js",
+    "main.js": "/Moviev-Reactjs/static/js/main.acb5a2d5.js",
     "static/js/787.7c42db31.chunk.js": "/Moviev-Reactjs/static/js/787.7c42db31.chunk.js",
     "static/media/title-image-1.webp": "/Moviev-Reactjs/static/media/title-image-1.eb5e2899315f131fed94.eb5e2899315f131fed94.webp",
     "static/media/fa-solid-900.ttf": "/Moviev-Reactjs/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -20,11 +20,11 @@
     "index.html": "/Moviev-Reactjs/index.html",
     "static/media/logo-dark.webp": "/Moviev-Reactjs/static/media/logo-dark.5aab8137fe2130969ca6.webp",
     "main.e2228041.css.map": "/Moviev-Reactjs/static/css/main.e2228041.css.map",
-    "main.87fc3e40.js.map": "/Moviev-Reactjs/static/js/main.87fc3e40.js.map",
+    "main.acb5a2d5.js.map": "/Moviev-Reactjs/static/js/main.acb5a2d5.js.map",
     "787.7c42db31.chunk.js.map": "/Moviev-Reactjs/static/js/787.7c42db31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2228041.css",
-    "static/js/main.87fc3e40.js"
+    "static/js/main.acb5a2d5.js"
   ]
 }
