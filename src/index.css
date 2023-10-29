@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+body {
+  margin: 0;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Maven Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#131722;
+}
+
+.bgColor{
+  background-color:#131722 ;
+}
+
+a , a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.secondFontColor{
+  color: #949cb0;
+}
+.form-control{
+  border: none;
+}
+.form-control:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}

@@ -1,0 +1,24 @@
+.secondFontColor{
+    color: #949cb0;
+}
+.cursorPointer{
+    cursor: pointer;
+
+}
+.innerDiv{
+    border: #949cb0 1px transparent;
+    transition: 1s all;
+    position: relative;
+}
+
+
+.badge{
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #09c;
+    color: #fff;
+    text-align: center;
+}
