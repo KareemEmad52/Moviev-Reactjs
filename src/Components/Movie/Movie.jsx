@@ -26,12 +26,10 @@ export default function Movie() {
 
 
   async function searchMovies(name) {
-    setIsLoading(true)
     let { data } = await axios.get(`https://api.themoviedb.org/3/search/movie?query=${name}&include_adult=false&language=en-US`, {
       headers
     })
     setMovies(data?.results)
-    setIsLoading(false)
   }
 
 

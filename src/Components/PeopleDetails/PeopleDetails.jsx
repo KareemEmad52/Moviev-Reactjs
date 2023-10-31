@@ -24,8 +24,7 @@ export default function PeopleDetails() {
     }, [])
 
     return <>
-        <div className='vh-100 text-white'>
-            <div className="container pt-4">
+            <div className="container pt-4 text-white">
                 <div className="row align-items-center">
                     <div className="col-md-4">
                         {<img className='w-100 p-5' src={`https://image.tmdb.org/t/p/original${movieDetails?.profile_path}`} />}
@@ -44,7 +43,6 @@ export default function PeopleDetails() {
                 </div>
             </div>
 
-        </div>
     </>
 }
 

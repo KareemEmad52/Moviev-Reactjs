@@ -25,12 +25,10 @@ export default function TvShow() {
 
 
   async function searchPeople(name) {
-    setIsLoading(true)
     let { data } = await axios.get(`https://api.themoviedb.org/3/search/tv?query=${name}&include_adult=false&language=en-US&page=1`, {
       headers
     })
     setTvShow(data?.results)
-    setIsLoading(false)
   }
 
 

@@ -25,12 +25,10 @@ export default function People() {
 
 
   async function searchPoeple(name) {
-    setIsLoading(true)
     let { data } = await axios.get(`https://api.themoviedb.org/3/search/person?query=${name}&include_adult=false&language=en-US&page=1`, {
       headers
     })
     setPeople(data?.results)
-    setIsLoading(false)
   }
 
 

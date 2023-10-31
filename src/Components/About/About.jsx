@@ -9,10 +9,10 @@ export default function About() {
         <div className="w-75 mx-auto ">
           <h2 className='h2 py-3 text-center text-white'>Contact Us</h2>
           <div className="row p-5 py-2">
-            <div className="col-md-6">
+            <div className="col-md-6 mt-2">
               <input type="text" className='form-control' placeholder='Name' />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-2">
               <input type="text" className='form-control' placeholder='Email'/>
             </div>
           </div>

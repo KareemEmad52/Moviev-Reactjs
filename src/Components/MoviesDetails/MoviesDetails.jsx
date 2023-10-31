@@ -22,10 +22,9 @@ export default function MoviesDetails() {
     useEffect(() => {
         getMovieDetails(id)
     }, [])
-    // https://api.themoviedb.org/3/movie/movie_id?language=en-US
+
     return <>
-        <div className='vh-100 text-white'>
-            <div className="container pt-4">
+            <div className="container pt-4  text-white">
                 <div className="row align-items-center">
                     <div className="col-md-4">
                         {<img className='w-100 p-5' src={`https://image.tmdb.org/t/p/original${movieDetails?.poster_path}`} />}
@@ -48,7 +47,7 @@ export default function MoviesDetails() {
                 </div>
             </div>
 
-        </div>
+
     </>
 }
 

@@ -8,7 +8,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:#131722;
 }
-
+.navbar-toggler-icon{
+  background-image: none !important;
+}
+.navbar-toggler-icon i{
+  font-size: 25px;
+  color: #fdfdfd;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: 3px solid #e3e3e3 !important;
+    box-shadow: 0px 0px 7px #e3e3e3;
+}
 .bgColor{
   background-color:#131722 ;
 }
